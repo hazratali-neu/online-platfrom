@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.1,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "React.js Mastery Course",
+    "instructor": "Jane Smith",
+    "duration": "15 hours",
+    "rating": 4.2,
+    "level": "Intermediate",
+    "description": "Master React.js with real-world projects.",
+    "image": "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+    "category": "Frontend"
+  },
+  {
+    "id": 3,
+    "title": "Next.js Full Course",
+    "instructor": "Alex Johnson",
+    "duration": "12 hours",
+    "rating": 4.3,
+    "level": "Intermediate",
+    "description": "Learn server-side rendering and full-stack apps with Next.js.",
+    "image": "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+    "category": "Frontend"
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Emily Davis",
+    "duration": "10 hours",
+    "rating": 4.4,
+    "level": "Beginner",
+    "description": "Learn modern UI/UX design principles and tools.",
+    "image": "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+    "category": "Design"
+  },
+  {
+    "id": 5,
+    "title": "Python for Beginners",
+    "instructor": "Michael Brown",
+    "duration": "18 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Start programming with Python from basics.",
+    "image": "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+    "category": "Programming"
+  },
+  {
+    "id": 6,
+    "title": "Data Structures & Algorithms",
+    "instructor": "David Wilson",
+    "duration": "25 hours",
+    "rating": 4.6,
+    "level": "Advanced",
+    "description": "Master DSA for coding interviews and problem solving.",
+    "image": "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+    "category": "Computer Science"
+  }
+]

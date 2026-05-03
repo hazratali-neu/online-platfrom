@@ -3,15 +3,20 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <div className="bg-[url('https://i.pinimg.com/1200x/8a/fe/83/8afe83b98f339de4c1dd34fde26a86d0.jpg')] h-[60vh] max-w-7xl mx-auto w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
+    <div
+      style={{
+        backgroundImage:
+          "url(/banner.jpg)",
+      }}
+      className=" h-[70vh] mt-4 max-w-7xl mx-auto w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
       {/* Overlay */}
       <div className="w-full h-full rounded-lg bg-black/50 flex items-center ">
         <div className="max-w-7xl mx-auto px-6 text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-2xl">
-            Turn Ideas into Stunning AI Art
+               Turn Your Ideas into Stunning AI Creations
           </h1>
           <p className="text-lg md:text-xl mb-6 max-w-xl text-gray-200">
-            Generate high-quality images from simple text prompts.
+             Generate high-quality images instantly from simple text prompts. Create art, designs, and visuals powered by AI.
           </p>
 
           <div className="flex gap-4">

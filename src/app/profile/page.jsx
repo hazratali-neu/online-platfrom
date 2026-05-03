@@ -1,7 +1,8 @@
 'use client'
 import { UpdateUserModal } from '@/components/UpdateUserModal';
 import { authClient } from '@/lib/auth-client';
-import { Avatar, Card } from '@heroui/react';
+import { Avatar, Button, Card } from '@heroui/react';
+import Link from 'next/link';
 import React from 'react';
 
 const Profile = () => {
@@ -23,6 +24,8 @@ const Profile = () => {
                 <p className="text-muted">{userr?.email}</p>
               
                 <UpdateUserModal /> 
+                <Link href={'/profileupdate'}>
+                 <Button >Updated Profile</Button></Link>
             </Card>
         </div>
     );

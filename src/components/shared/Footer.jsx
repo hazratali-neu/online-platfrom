@@ -1,5 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import { BiLogoFacebookCircle } from "react-icons/bi";
+import { RxGithubLogo } from "react-icons/rx";
+import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -43,15 +46,6 @@ const Footer = () => {
               <p>Email: hazratalipalash2003@example.com</p>
               <p>+8801785474189</p>
             </div>
-
-            <div className="flex flex-col gap-1 text-sm text-gray-600 dark:text-gray-400 pt-2">
-              <p>Social links</p>
-              <div className="flex gap-4 text-xs">
-                <span className="cursor-pointer">Facebook</span>
-                <span className="cursor-pointer">GitHub</span>
-                <span className="cursor-pointer">LinkedIn</span>
-              </div>
-            </div>
           </div>
 
           {/* Product */}
@@ -91,6 +85,14 @@ const Footer = () => {
             >
               Get Started
             </Link>
+             <div className="flex flex-col gap-1 text-sm text-gray-600 dark:text-gray-400 pt-2">
+              <p>Social links</p>
+              <div className="flex gap-4 text-xs">
+                <p className="cursor-pointer"><BiLogoFacebookCircle className="w-8 h-8"/></p>
+                <span className="cursor-pointer"><RxGithubLogo className="w-8 h-8"/></span>
+                <span className="cursor-pointer"><BsLinkedin className="w-8 h-8" /></span>
+              </div>
+            </div>
           </div>
         </div>
 

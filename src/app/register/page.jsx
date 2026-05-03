@@ -16,6 +16,7 @@ import {
 import Link from "next/link";
 import { FcGoogle } from "react-icons/fc";
 import { useRouter } from "next/navigation";
+import { toast } from "react-toastify";
 const RegisterPage = () => {
     const router = useRouter()
 
@@ -40,11 +41,10 @@ const RegisterPage = () => {
         console.log({ data, error })
 
         if (error) {
-            alert(error.message)
+            toast.error(error.message)
         }
         if (!error) {
-            router.push('/')
-            // alert('login successfull')
+            router.push('/') 
         }
 
 
@@ -57,7 +57,7 @@ const RegisterPage = () => {
     }
     return (
         <Card className="border mx-auto w-125 py-10 mt-5">
-            <h1 className="text-center text-2xl font-bold">Sign Up</h1>
+            <h1 className="text-center text-2xl font-bold">Register</h1>
 
             <Form onSubmit={onSubmit} className="flex w-96 mx-auto flex-col gap-4" >
                 <TextField isRequired name="name" type="text">

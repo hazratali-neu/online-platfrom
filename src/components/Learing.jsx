@@ -18,9 +18,9 @@ const Learing = () => {
 
                     <ul className="space-y-2 text-gray-700 text-sm md:text-base">
                         <li>Learn by building small projects</li>
-                        <li>✅ Take short notes while learning</li>
-                        <li>✅ Revise weekly to remember better</li>
-                        <li>✅ Practice coding daily</li>
+                        <li>Take short notes while learning</li>
+                        <li> Revise weekly to remember better</li>
+                        <li> Practice coding daily</li>
                     </ul>
                 </div>
 
@@ -31,10 +31,10 @@ const Learing = () => {
                     </h3>
 
                     <ul className="space-y-2 text-gray-700 text-sm md:text-base">
-                        <li>✅ Study 1–2 hours daily consistently</li>
-                        <li>✅ Use Pomodoro technique (25min + 5min break)</li>
-                        <li>✅ Avoid multitasking</li>
-                        <li>✅ Plan weekly learning goals</li>
+                        <li> Study 1 - 2 hours daily consistently</li>
+                        <li> Use Pomodoro technique (25min + 5min break)</li>
+                        <li> Avoid multitasking</li>
+                        <li>Plan weekly learning goals</li>
                     </ul>
                 </div>
             </div>

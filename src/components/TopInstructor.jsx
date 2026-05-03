@@ -1,27 +1,36 @@
 import Image from 'next/image';
 import React from 'react';
 import { BsTrophyFill } from 'react-icons/bs';
+import { FaStarHalfStroke } from 'react-icons/fa6';
 const instructors = [
-  {
-    name: "John Doe",
-    role: "Full Stack Developer",
-    image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
-  },
-  {
-    name: "Sarah Smith",
-    role: "React Specialist",
-    image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
-  },
-  {
-    name: "Mike Johnson",
-    role: "Next.js Mentor",
-    image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
-  },
-  {
-    name: "Emma Brown",
-    role: "UI/UX Designer",
-    image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
-  },
+    {
+        name: "John Doe",
+        role: "Full Stack Developer",
+        image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+        exparience: '4+ Years Experience',
+         ratting: '4.7'
+    },
+    {
+        name: "Sarah Smith",
+        role: "React Specialist",
+        image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+        exparience: '5+ Years Experience',
+         ratting: '4.6'
+    },
+    {
+        name: "Mike Johnson",
+        role: "Next.js Mentor",
+        image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+        exparience: '3+ Years Experience',
+        ratting: '4.8'
+    },
+    {
+        name: "Emma Brown",
+        role: "UI/UX Designer",
+        image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+        exparience: '6+ Years Experience',
+         ratting: '4.9'
+    },
 ];
 
 const TopInstructor = () => {
@@ -30,7 +39,7 @@ const TopInstructor = () => {
             <section>
                 <div className="mb-8">
                     <h2 className="text-2xl md:text-3xl flex gap-2 items-center font-bold text-gray-800">
-                        <BsTrophyFill/> Top Instructors
+                        <BsTrophyFill /> Top Instructors
                     </h2>
                     <p className="text-gray-600 mt-2 text-sm md:text-base">
                         Learn from the best instructors and improve your skills faster.
@@ -56,6 +65,10 @@ const TopInstructor = () => {
                                 {ins.name}
                             </h3>
                             <p className="text-sm text-gray-600">{ins.role}</p>
+                            <p>{ins.exparience}</p>
+
+                            <p className='flex items-center gap-2 justify-center'><FaStarHalfStroke />
+                                {ins.ratting}</p>
 
                             <button className="mt-4 px-5 py-2 bg-gray-900 hover:bg-gray-800 text-white rounded-xl text-sm font-semibold transition">
                                 View Profile

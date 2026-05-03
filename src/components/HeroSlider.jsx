@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export default function HeroSlider() {
   return (
-    <div className='max-w-7xl mx-auto mt-15'>
+    <div className='max-w-7xl mx-auto mt-10'>
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation

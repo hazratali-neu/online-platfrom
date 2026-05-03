@@ -18,7 +18,7 @@
     "rating": 4.2,
     "level": "Intermediate",
     "description": "Master React.js with real-world projects.",
-    "image": "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+    "image": "https://i.ibb.co.com/PsC4TFG7/photo-1498050108023-c5249f4df085.avif",
     "category": "Frontend"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.3,
     "level": "Intermediate",
     "description": "Learn server-side rendering and full-stack apps with Next.js.",
-    "image": "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+    "image": "https://i.ibb.co.com/YTQ04BTW/photo-1526948531399-320e7e40f0ca.avif",
     "category": "Frontend"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.4,
     "level": "Beginner",
     "description": "Learn modern UI/UX design principles and tools.",
-    "image": "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+    "image": "https://i.ibb.co.com/BHx412PH/photo-1584697964038-28e16a2b6a3a.avif",
     "category": "Design"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.5,
     "level": "Beginner",
     "description": "Start programming with Python from basics.",
-    "image": "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+    "image": "https://i.ibb.co.com/GN7YT8N/photo-1448932223592-d1fc686e76ea.avif",
     "category": "Programming"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.6,
     "level": "Advanced",
     "description": "Master DSA for coding interviews and problem solving.",
-    "image": "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+    "image": "https://i.ibb.co.com/W9f8mVf/photo-1600880292203-757bb62b4baf.avif",
     "category": "Computer Science"
   }
 ]

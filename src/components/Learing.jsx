@@ -27,7 +27,7 @@ const Learing = () => {
                 {/* Time Management */}
                 <div className="bg-white rounded-2xl p-6 shadow-sm border">
                     <h3 className="text-xl font-bold text-gray-800 mb-3">
-                        ⏳ Time Management Tips
+                         Time Management Tips
                     </h3>
 
                     <ul className="space-y-2 text-gray-700 text-sm md:text-base">

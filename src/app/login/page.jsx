@@ -12,7 +12,9 @@ import {
     TextField,
 } from "@heroui/react";
 import Link from "next/link";
+
 import { GrGoogle } from "react-icons/gr";
+import { toast } from "react-toastify";
 
 const LoginPage = () => {
 
@@ -26,11 +28,14 @@ const LoginPage = () => {
             email,
             password,
             callbackURL: "/",
+           
         });
         console.log({ data, error });
+        
         if (error) {
-            alert('Wrong password!! please valid password try again')
+            toast('Wrong password!! please valid password try again')
         }
+
     };
 
     const handlGoogleSignIn = async () => {
@@ -113,3 +118,4 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
+

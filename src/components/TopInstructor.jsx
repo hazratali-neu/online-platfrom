@@ -6,28 +6,28 @@ const instructors = [
     {
         name: "John Doe",
         role: "Full Stack Developer",
-        image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+        image: "https://i.ibb.co.com/FLCWPspB/istockphoto-2130663384-612x612.webp",
         exparience: '4+ Years Experience',
          ratting: '4.7'
     },
     {
         name: "Sarah Smith",
         role: "React Specialist",
-        image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+        image: "https://i.ibb.co.com/Q3m0hHyT/photo-1474293507615-951863a0f942.avif",
         exparience: '5+ Years Experience',
          ratting: '4.6'
     },
     {
         name: "Mike Johnson",
-        role: "Next.js Mentor",
-        image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+        role: "UI/UX Designer",
+        image: "https://i.ibb.co.com/wrCNtbgj/istockphoto-2234378371-612x612.webp",
         exparience: '3+ Years Experience',
         ratting: '4.8'
     },
     {
-        name: "Emma Brown",
-        role: "UI/UX Designer",
-        image: "https://i.ibb.co.com/0j7JXhcP/banner.avif",
+        name: "Hazrat ali",
+        role: "Next.js Mentor ",
+        image: "https://i.ibb.co.com/KcLXDVbw/Image-17-9-24-at-4-39-PM.jpg",
         exparience: '6+ Years Experience',
          ratting: '4.9'
     },
@@ -35,7 +35,7 @@ const instructors = [
 
 const TopInstructor = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto mt-8'>
             <section>
                 <div className="mb-8">
                     <h2 className="text-2xl md:text-3xl flex gap-2 items-center font-bold text-gray-800">

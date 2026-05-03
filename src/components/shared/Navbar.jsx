@@ -3,6 +3,7 @@ import { authClient } from "@/lib/auth-client";
 import { Avatar, Button, Spinner } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
+import NavLink from "./NavLink";
 
 const Navbar = () => {
 
@@ -28,13 +29,13 @@ const Navbar = () => {
 
         <ul className="flex items-center gap-5 text-sm">
           <li>
-            <Link href={"/"}>Home</Link>
+            <NavLink href={"/"}>Home</NavLink>
           </li>
           <li>
-            <Link href={"/courses"}>Courses</Link>
+            <NavLink href={"/courses"}>Courses</NavLink>
           </li>
           <li>
-            <Link href={"/profile"}>My Profile</Link>
+            <NavLink href={"/profile"}>My Profile</NavLink>
           </li>
         </ul>
 

@@ -45,6 +45,7 @@ const RegisterPage = () => {
         }
         if (!error) {
             router.push('/') 
+            toast("Wow logis is sucessfully!")
         }
 
 

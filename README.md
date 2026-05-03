@@ -9,3 +9,13 @@ The goal is to provide a simple and user-friendly way to access online education
 
 
 Live URL:
+
+
+Key Features:
+Login/Register
+Google Auth
+Profile update
+Search functionality
+Trending courses section
+more others
+

@@ -4,13 +4,19 @@ import { Avatar, Button, Spinner } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
 import NavLink from "./NavLink";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
+
+  const router=useRouter();
 
   const { data: session, isPending } = authClient.useSession()
   const userr = session?.user;
   const handleSignOut=async()=>{
     await authClient.signOut();
+    router.refresh();
+    router.push('/login')
+    
   }
   return (
     <div className="border-b px-2">
